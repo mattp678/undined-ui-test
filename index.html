@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    #main {
+      display: flex;
+    }
+    .restaurantcontainer {
+      text-align: center;
+      width:250px;
+      height:300px;
+      border: 3px black solid;
+      margin: 10px;
+    }
+    .approve {
+      background-color: green;
+    }
+    .deny {
+      background-color: red;
+    }
+    .picture {
+      margin:10px;
+      height:200px;
+    }
+    .logo {
+      width:100%;
+      max-width:200px;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div class="restaurantcontainer" id="123">
+      <div class="picture">
+        <img class="logo" src="static/mcdonalds.jpg" />
+      </div>
+      <div class="name">
+        <p>
+          mcdonalds
+        </p>
+      </div>
+      <div class="approvedeny">
+        <form action="approvedeny" method="post">
+          <button class="approve" name="approve" value="123">Approve</button>
+          <button class="deny" name="deny" value="123">Deny</button>
+        </form>
+      </div>
+    </div>
+    <div class="restaurantcontainer" id="124">
+      <div class="picture">
+        <img class="logo" src="static/wendys.png" />
+      </div>
+      <div class="name">
+        <p>
+          wendys
+        </p>
+      </div>
+      <div class="approvedeny">
+        <form action="approvedeny" method="post">
+          <button class="approve" name="approve" value="124">Approve</button>
+          <button class="deny" name="deny" value="124">Deny</button>
+        </form>
+      </div>
+    </div>
+    <div class="restaurantcontainer" id="125">
+      <div class="picture">
+        <img class="logo" src="static/harveys.png" />
+      </div>
+      <div class="name">
+        <p>
+          harveys
+        </p>
+      </div>
+      <div class="approvedeny">
+        <form action="approvedeny" method="post">
+          <button class="approve" name="approve" value="125">Approve</button>
+          <button class="deny" name="deny" value="125">Deny</button>
+        </form>
+      </div>
+    </div>
+    <div class="restaurantcontainer" id="126">
+      <div class="picture">
+        <img class="logo" src="static/swiss.jpg" />
+      </div>
+      <div class="name">
+        <p>
+          swiss chalet
+        </p>
+      </div>
+      <div class="approvedeny">
+        <form action="approvedeny" method="post">
+          <button class="approve" name="approve" value="126">Approve</button>
+          <button class="deny" name="deny" value="126">Deny</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
